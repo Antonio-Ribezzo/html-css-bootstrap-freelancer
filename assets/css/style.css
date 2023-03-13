@@ -21,3 +21,66 @@ background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg
 header a{
     color: white !important;
 }
+
+/*************************/
+/**********main***********/
+/*************************/
+
+/* section-1 */
+#section-1{
+    background-color: #1abc9c;
+    color: white;
+}
+
+#section-1 img{
+    height: 300px;
+}
+
+#section-1 #star::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 4rem;
+    background-color: white;
+    top: 50%;
+    right: 54%;
+    border-radius: 3rem;
+}
+
+#section-1 #star::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 4rem;
+    background-color: white;
+    top: 50%;
+    left: 54%;
+    border-radius: 3rem;
+}
+
+/* section-2 */
+#section-2 #star::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 4rem;
+    background-color: black;
+    top: 50%;
+    right: 54%;
+    border-radius: 3rem;
+}
+
+#section-2 #star::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 4rem;
+    background-color: black;
+    top: 50%;
+    left: 54%;
+    border-radius: 3rem;
+}
