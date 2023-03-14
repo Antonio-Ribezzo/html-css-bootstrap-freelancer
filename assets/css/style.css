@@ -30,70 +30,37 @@ header a{
 #section-1{
     background-color: #1abc9c;
     color: white;
+    padding-bottom: 2rem;
 }
 
-#section-1 img{
-    height: 300px;
-}
 
-#section-1 #star::before,
-#section-3 #star::before{
+#section-1 .star-divider::before,
+#section-1 .star-divider::after,
+#section-3 .star-divider::before,
+#section-3 .star-divider::after{
     content: "";
-    position: absolute;
-    display: block;
-    height: 0.2rem;
-    width: 4rem;
+    display: inline-block;
+    width: 10%;
+    height: 3px;
     background-color: white;
-    top: 50%;
-    right: 54%;
-    border-radius: 3rem;
-}
-
-#section-1 #star::after,
-#section-3 #star::after{
-    content: "";
-    position: absolute;
-    display: block;
-    height: 0.2rem;
-    width: 4rem;
-    background-color: white;
-    top: 50%;
-    left: 54%;
-    border-radius: 3rem;
+    vertical-align: middle;
 }
 
 /* section-2 */
-#section-2 #star::before,
-#section-4 #star::before{
+#section-2 .star-divider::before,
+#section-2 .star-divider::after{
     content: "";
-    position: absolute;
-    display: block;
-    height: 0.2rem;
-    width: 4rem;
+    display: inline-block;
+    width: 10%;
+    height: 3px;
     background-color: black;
-    top: 50%;
-    right: 54%;
-    border-radius: 3rem;
-}
-
-#section-2 #star::after,
-#section-4 #star::after{
-    content: "";
-    position: absolute;
-    display: block;
-    height: 0.2rem;
-    width: 4rem;
-    background-color: black;
-    top: 50%;
-    left: 54%;
-    border-radius: 3rem;
+    vertical-align: middle;
 }
 
 /* section-3 */
 #section-3{
     background-color: #1abc9c;
     color: white;
-    padding: 2rem 0;
 }
 
 #section-3 .fa-download{
