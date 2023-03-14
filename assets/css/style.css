@@ -80,7 +80,34 @@ header a{
     border-radius: 0;
 }
 
-button{
+#section-4 button{
     background-color: #19bc9c !important;
     border: none !important;
+}
+
+#upper-footer{
+    background-color: #3a546d;
+    padding: 0 1rem;
+}
+
+#upper-footer .fa-brands{
+    padding: 0.5rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: 0 0.5rem;
+}
+
+#upper-footer .fa-facebook-f{
+    padding: 0.5rem 0.7rem; 
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+#upper-footer a{
+    text-decoration: none;
+    color: #19bc9c;
+}
+
+#bottom-footer{
+    background-color: #2c3e50;
 }
