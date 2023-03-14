@@ -26,7 +26,6 @@ header a{
 /**********main***********/
 /*************************/
 
-/* section-1 */
 #section-1{
     background-color: #1abc9c;
     color: white;
@@ -44,20 +43,27 @@ header a{
     height: 3px;
     background-color: white;
     vertical-align: middle;
+    border-radius: 2rem;
 }
 
-/* section-2 */
+#section-2,
+#section-4{
+   color: #2c3e50;
+}
+
 #section-2 .star-divider::before,
-#section-2 .star-divider::after{
+#section-2 .star-divider::after,
+#section-4 .star-divider::before,
+#section-4 .star-divider::after{
     content: "";
     display: inline-block;
     width: 10%;
     height: 3px;
-    background-color: black;
+    background-color: #2c3e50;
     vertical-align: middle;
+    border-radius: 2rem;
 }
 
-/* section-3 */
 #section-3{
     background-color: #1abc9c;
     color: white;
@@ -65,4 +71,16 @@ header a{
 
 #section-3 .fa-download{
     margin-right: 0.5rem;
+}
+
+.form-control{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}
+
+button{
+    background-color: #19bc9c !important;
+    border: none !important;
 }
